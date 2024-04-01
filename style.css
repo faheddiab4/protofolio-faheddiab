@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+body{
+    background-image: linear-gradient(to left ,#1a1a1a , #000);
+    font-family: "Truculenta", sans-serif;
+}
+
+.logo {
+    background-color: black;
+   display: -1;
+    align-content: center;
+}
+
+.nav {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: -1.7em;
+}
+a:link {
+    color: rgb(159, 159, 159);
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+    color: azure;
+    transition: 0.7s;
+    left: 0;
+    
+}
+
+.first-card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.7vw;
+    background-color: #2b2b2b;
+    width: 300px;
+    height: 350px;
+    border-radius: 12px;
+    box-shadow: 0 25px 121px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.7s;
+}
+
+.my-name{
+    margin-top: 1.8vw;
+    font-size: 2em;
+    color: azure;
+}
+
+.second-card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.7vw;
+    background-color: #2b2b2b;
+    width: 300px;
+    height: 450px;
+    border-radius: 12px;
+    box-shadow: 0 25px 121px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-content: center;
+    
+    align-items: center;
+    margin-top: 5vw;
+    transition: all 0.7s;
+}
+
+.info1{
+    color: azure;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.info1-2{
+    color: azure;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.third-card{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.7vw;
+    background-color: #2b2b2b;
+    width: 300px;
+    height: 450px;
+    border-radius: 12px;
+    box-shadow: 0 25px 121px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-content: center;
+    
+    align-items: center;
+    margin-top: 5vw;
+    transition: all 0.7s;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.7vw;
+    align-items: center;
+    margin-top: 5vw;
+    transition: all 0.7s;
+   
+}
+
+.imgme {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 4px;
+    width: 150px;
+}
+
+.second {
+    margin-top: 1.7vw;
+    background-image: linear-gradient(to right , #ffffff , #000 );
+}
+.ask {
+   display: flex;
+   justify-content: center;
+}
+.infos{
+    font-family: "Workbench", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    align-items: center;
+
+}
+.projectsInfoNumber{
+    font-size: 2em;
+    color: azure;
+    padding: 0.7vw;
+}
+
+.projectsName{
+    font-size: 2em;
+    color: azure;
+}
+
+.yearOFEx{
+    font-size: 2em;
+    color: azure;
+    padding: 2vw;
+}
+
+.Experience{
+    font-size: 2em;
+    color: azure;
+    
+}
+
+footer {
+    background-color: #000000;
+   color:  rgb(159, 159, 159);
+    display: flex;
+    justify-content: space-between;
+}
